@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxLine Company</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a class="nav-link" href="#beranda">Home</a>
+            <a class="nav-link" href="#profil">Our Profile</a>
+            <a class="nav-link" href="#hubungi">Message Us</a>
+        </nav>
+    </header>
+
+    <div id="welcome-screen">
+        <p id="welcomeText">Hello, Guest! Welcome to BoxLine Company</p>
+    </div>
+
+    <section id="beranda">
+        <div class="isi-beranda">
+            <h1>BOXLINE</h1>
+            <p class="tagline">Minimalist Streetwear for Everyday Wear</p>
+            <p class="deskripsi">
+                BoxLine is a streetwear fashion brand focused on modern design,
+                comfort, and everyday wearability.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="profil">
+        <div class="isi-profil">
+            <div class="header-profil">
+                <h2>Our Profile</h2>
+                <p>
+                    Defining everyday streetwear through simplicity and modern design.
+                </p>
+            </div>
+
+            <div class="produk">
+                <img src="jacket.png" alt="BoxLine Work Jacket">
+                <img src="tshirt.png" alt="BoxLine T-Shirt">
+                <img src="longsleeve.png" alt="BoxLine Longsleeve">
+                <img src="hoodie.png" alt="BoxLine Hoodie">
+            </div>
+
+            <div class="section-divider">
+                <span class="line-left"></span>
+                <span class="line-right"></span>
+            </div>
+
+            <div class="tentang">
+                <h3>About BoxLine</h3>
+                <p>
+                    BoxLine is a streetwear fashion brand that focuses on clean aesthetics,
+                    comfort, and versatility. Our designs are made to support modern
+                    lifestyles with a minimalist identity.
+                </p>
+            </div>
+
+            <div class="visi">
+                <h3>Vision</h3>
+                <p>
+                    To become a trusted streetwear brand that represents simplicity,
+                    comfort, and modern everyday fashion.
+                </p>
+            </div>
+
+            <div class="misi">
+                <h3>Mission</h3>
+                <ul>
+                    <li>Create minimalist and functional fashion designs</li>
+                    <li>Provide comfortable apparel for daily wear</li>
+                    <li>Adapt to modern fashion trends</li>
+                </ul>
+            </div>
+
+            <div class="brand-signature">
+                <img src="boxline.png" alt="BoxLine Brand Identity">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="hubungi">
+        <div class="isi">
+            <div class="form-wrapper">
+            <h2>Message Us</h2>
+            <p class="form-desc">
+                Feel free to send us your questions or messages.
+            </p>
+
+            <form id="form">
+                <div class="field">
+                <label for="nama">Name</label>
+                <input type="text" id="nama" name="nama">
+                </div>
+
+                <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                </div>
+
+                <div class="field">
+                <label for="telepon">Phone Number</label>
+                <input type="text" id="telepon" name="telepon">
+                </div>
+
+                <div class="field">
+                <label for="pesan">Message</label>
+                <textarea id="pesan" name="pesan"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+
+            <div class="hasil" id="hasil">
+            <h3>Your Message</h3>
+            <p class="hint">Your submitted message will appear here.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
